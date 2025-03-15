@@ -73,8 +73,8 @@
                     <td>Computer</td>
                 </tr>
                 <tr>
-                    <td><img id="user_ip" class="choice-img" src="assets/rockPaperScissor/placeholder.jpg" alt="User Choice"></td>
-                    <td><img id="computer_ip" class="choice-img" src="assets/rockPaperScissor/placeholder.jpg" alt="Computer Choice"></td>
+                    <td><img id="user_ip" class="choice-img" src="rockPaperScissor/placeholder.jpg" alt="User Choice"></td>
+                    <td><img id="computer_ip" class="choice-img" src="rockPaperScissor/placeholder.jpg" alt="Computer Choice"></td>
                 </tr>
             </table>
         </div>
@@ -99,8 +99,8 @@
         const computerChoice = choices[Math.floor(Math.random() * 3)];
         
      
-        document.getElementById("user_ip").src = `assets/rockPaperScissor/${userChoice}.jpg`;
-        document.getElementById("computer_ip").src = `assets/rockPaperScissor/${computerChoice}.jpg`;
+        document.getElementById("user_ip").src = `rockPaperScissor/${userChoice}.jpg`;
+        document.getElementById("computer_ip").src = `rockPaperScissor/${computerChoice}.jpg`;
 
         update(userChoice, computerChoice);
     }
